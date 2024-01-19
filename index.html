@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <script
+      src="https://kit.fontawesome.com/b427766d29.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        background-color: #D1C3C3;
+        color: #fff;
+    
+        overflow: hidden;
+        
+      }
+      .grid-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+      }
+      .card {
+        width: 30%;
+        background-color: #fff;
+        display: block;
+        color: #000;
+        text-align: center;
+        border-radius: 5px;
+      }
+
+      .img-section{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 10px;
+        background-color: #4070F4;
+      }
+
+      .profile-img {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        margin: auto;
+        padding: 3px;
+      }
+
+      .profile-img img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        padding: 1px;
+      }
+
+      .details{
+        padding: 10px 20px;
+      }
+
+      .name h3 {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 400;
+        margin: 10px 10px;
+      }
+
+      .location p {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 10px 10px;
+      }
+
+      .position h5 {
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 400;
+        margin: 10px 10px;
+      }
+
+      .list li {
+        list-style: none;
+      }
+
+      .list li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      li.link {
+        text-align: center;
+        margin: 12px;
+        background: #2A60F2;
+        padding: 5px;
+        border-radius: 10px;
+      }
+
+      .li.link:hover{
+        background-color: #4070F4;
+      }
+
+      .list li a {
+        font-size: 18px;
+        line-height: 25px;
+        margin: 0 0 10px 0;
+       
+      }
+
+      .list li a i {
+        font-size: 18px;
+        line-height: 25px;
+      }
+
+      
+
+      @media  (max-width:1000px) {
+        .card {
+            width: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid-container">
+        <div class="card">
+          <div class="img-section">
+            <div class="profile-img">
+                <img src="imgs/Anand.jpg" alt="" />
+              </div>
+          </div>
+         <div class="details">
+            <div class="name">
+                <h3>Anand Prakash Chaudhary</h3>
+              </div>
+              <div class="location">
+                <p>Gurugram, Haryana in India</p>
+              </div>
+              <div class="position">
+                <h5>Software Developer Engineer</h5>
+              </div>
+    
+              <ul class="list">
+                <li class="link">
+                  <a
+                    href="https://www.linkedin.com/in/anand-prakash-chaudhary-7788b6203/"
+                    target="_blank"
+                  >
+                    <i class="fa fa-linkedin" aria-hidden="true"></i> Linkedln
+                  </a>
+                </li>
+                <li class="link">
+                  <a href="https://twitter.com/Anand7081" target="_blank"
+                    ><i class="fa-brands fa-x-twitter"></i> Twitter (X)
+                  </a>
+                </li>
+                <li class="link">
+                  <a href="https://github.com/anand8126" target="_blank">
+                    <i class="fa-brands fa-github"></i> GitHub</a
+                  >
+                </li>
+                <li class="link">
+                  <a
+                    href="https://www.instagram.com/i_am_anand_2000/?utm_source=qr&igsh=MWhnOGxzOHRmb3Nmcw%3D%3D"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-instagram"></i> Instagram</a
+                  >
+                </li>
+                <li class="link">
+                  <a
+                    href="https://www.facebook.com/anandprakash.chaudhary.3?mibextid=AQCFcj8imgClWYJ5"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook"></i> Facebook</a
+                  >
+                </li>
+              </ul>
+         </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
